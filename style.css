@@ -1,0 +1,28 @@
+html{
+  padding: 0px;
+  margin: 0px
+}
+/* core styling */
+body{
+  margin: 0px;
+  font-family: arial.helvetica,sans-serif;
+  background:#333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height:1.5;
+  text-align: center;
+}
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1,h2,h3{
+  text-transform: capitalize;
+  margin:0;
+  padding: 5px;
+}
+p{
+  margin:0;
+  padding: 1em 0;
+}
