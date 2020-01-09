@@ -16,7 +16,7 @@ html {
 body {
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
-    background: #fff;
+/*     background: #fff; */
     color: charcoal;
     font-size: 1.1em;
     line-height: 1.5;
@@ -44,27 +44,16 @@ p {
     background-color: #9099A2;
     border: #96858f;
 }
-
-.btn-primary:hover {
-    background-color: #666c73;
-    ;
-    border: #96858f;
-}
-
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #666c73 !important;
     border: #96858f !important;
     outline: none !important;
     box-shadow: none;
 }
-
 /* header */
+
 .section-a h1 {
     font-family: 'Dancing Script', cursive;
-    background-color:
-}
-
-.section-a h1 {
     color: #96858f;
     margin-top: 30px;
     font-size: 65px;
@@ -158,8 +147,8 @@ p {
     border-radius: 10px;
     padding: 20px;
     -webkit-box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.75);
 }
 #option {
     text-transform: uppercase;
