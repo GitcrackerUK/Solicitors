@@ -1,28 +1,185 @@
-html{
-  padding: 0px;
-  margin: 0px
+/*
+colors-schemes
+#373737 charcoal
+
+#96858f dusky
+#6d7993 lavender
+#9099A2 overcast
+#d5d5d5 paper
+ */
+html {
+    padding: 0px;
+    margin: 0px
 }
+
 /* core styling */
-body{
-  margin: 0px;
-  font-family: arial.helvetica,sans-serif;
-  background:#333;
-  color: #fff;
-  font-size: 1.1em;
-  line-height:1.5;
-  text-align: center;
+body {
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #fff;
+    color: charcoal;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
 }
-img{
-  display: block;
-  width: 100%;
-  height: auto;
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
-h1,h2,h3{
-  text-transform: capitalize;
-  margin:0;
-  padding: 5px;
+
+h1, h2, h3 {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 5px;
 }
-p{
-  margin:0;
-  padding: 1em 0;
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn-primary {
+    background-color: #9099A2;
+    border: #96858f;
+}
+
+.btn-primary:hover {
+    background-color: #666c73;
+    ;
+    border: #96858f;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #666c73 !important;
+    border: #96858f !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* header */
+.section-a h1 {
+    font-family: 'Dancing Script', cursive;
+    background-color:
+}
+
+.section-a h1 {
+    color: #96858f;
+    margin-top: 30px;
+    font-size: 65px;
+}
+
+.fa {
+    color: #96858f;
+    padding-right: 10px;
+}
+
+.cont-wrap h3 {
+    color: #373737;
+    font-size: 20px;
+}
+
+/* navbar */
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    font-size: 30px;
+}
+
+.menu li {
+    margin: 5px;
+    height: 40px;
+}
+
+.menu li, a {
+    font-family: 'Cabin', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: black;
+}
+
+/* main */
+.section-main-top {
+    height: 500px;
+    background-image: url("img/activity-board-game-connection-desk-613508.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-main-mid {
+    text-align: left;
+    padding: 20px;
+}
+.wra{
+    margin-top: 50px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.section-main-bottom .jumbotron img{
+
+    border-radius: 5px;
+    height: 60px;
+    width: 100px;
+}
+
+/* footer */
+.sectio-footer-a {
+    background-color: #d5d5d5;
+    height: 300px;
+}
+
+.footer-text {
+    padding-top: 75px;
+}
+
+.footer-text p {
+    font-size: 25px;
+    padding: 20px;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+.socials a {
+    margin-left: 20px;
+    color: #ba8748;
+}
+
+.socials a:hover {
+    color: #936a39;
+}
+
+.socials a:active {}
+
+.credit {
+    display: grid;
+}
+
+.credit p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 14px;
 }
