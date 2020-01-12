@@ -103,13 +103,30 @@ p {
 /* about */
 /* main */
 .section-main-top {
-    height: 500px;
-    width: auto;
-    background-image: url("img/activity-board-game-connection-desk-613508.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 1000px){
+    .section-main-top{
+
+
+    }
+}
+@media (min-width: 1000px){
+    #small-fill{
+        height: 0px;
+        width: 0px;
+    }
+    .img-main {
+        height: 500px;
+        width: auto;
+        background-image: url("img/activity-board-game-connection-desk-613508.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .section-main-mid {
