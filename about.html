@@ -26,6 +26,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
     <link rel="stylesheet" href="style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -43,50 +45,51 @@
                 </div>
             </div>
             <div class="section-b">
-                <div class="navbar-wrapper">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="collapse   navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="index.html">home</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="about.html">who we are</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="services.html">our service</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">contact us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="col-4 mt-2 mb-2 offset-4 navbar-toggler" type="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            MENU
-                        </button>
-                    </nav>
-                </div>
+
+
+                <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+                    <div class="collapse   navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html">who we are</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">our service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="col-4 mt-2 mb-2  justify-content-center navbar-toggler text-center" type="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        MENU
+                    </button>
+                </nav>
             </div>
         </div>
     </header>
     <!-- main -->
     <main>
-        <div class="section-main-mid">
+        <div id="main-about" class="section-main-mid">
             <h2>About goodwood solicitors</h2>
             <div class="grid">
-                <div class="main-text-wrapper">
-                    <p>Goodwood was established on 1st November 2000 and have celebrated 15 years trading last year on 1st November 2015.</p>
+                <div id="about-main"class="main-text-wrapper text-center p-3">
+                    <img class="m-auto" src="img/man-sitting-on-chair-beside-table-834863.jpg" alt="">
+                    <p>Goodwood was established on 1st November 2000 and celebrates 20 years trading on 1st November 2020. The firm’s strengths has been to support large and small businesses from purchasing companies to dealing with business start
+                    ups, raising finance for their businesses and proving bespoke Legal Services in the Royal Town of
+                    Sutton Coldfield. We are on the panel of all the leading Banks and Building Societies.</p>
                     <img src="img/administration-agreement-banking-blur-618158.jpg" alt="">
-                    <p>
-                        <p>The firm’s strengths has been to support large and small businesses from purchasing companies to dealing with business start ups, raising finance for their businesses and proving bespoke Legal Services in the Royal Town of
-                            Sutton Coldfield. We are on the panel of all the leading Banks and Building Societies.</p>
-                        <img src="img/close-up-photo-of-man-wearing-black-suit-jacket-doing-thumbs-684385.jpg" alt="">
-                        <p>Goodwood moved into their flagship offices following their steady expansion drive in a listed office building which was the former residence of the last Town Mayor of Sutton Coldfield in 1950.</p>
-                        <img src="img/sr_796517_large.jpg" alt="">
-                        <p>Our legal advice and support combines technical excellence with a sound commercial perspective, ensuring that we are able to meet the expectations of our clients for all their legal services.</p>
-                        <img src="img/teatm.png" alt="">
-                        <p>Understanding our clients and their business is the cornerstone of our success and this approach ensures we can provide specialist legal support and advice based on the best strategy.
-                        </p>
+                    <p>Our legal advice and support combines technical excellence with a sound commercial perspective, ensuring that we are able to meet the expectations of our clients for all their legal services.</p>
+                    <img src="img/close-up-photo-of-man-wearing-black-suit-jacket-doing-thumbs-684385.jpg" alt="">
+                    <p>Goodwood moved into their flagship offices following their steady expansion drive in a listed office building which was the former residence of the last Town Mayor of Sutton Coldfield in 1950.</p>
+                    <img class="m-auto" src="img/sr_796517_large.jpg" alt="">
+                    <p>Understanding our clients and their business is the cornerstone of our success and this approach ensures we can provide specialist legal support and advice based on the best strategy.</p>
+
+
                 </div>
             </div>
         </div>
@@ -99,13 +102,19 @@
 
         <div class="sectio-footer-a">
             <div class="container">
-                <div class="footer-text">
-                    <p>Want to know how much our services <strong>cost</strong>? Fill in our on-line <strong>quotation form</strong>!</p>
-                </div>
-                <div class="footer-button"><a type="button" href="contact.html" class="btn btn-primary btn-lg">Quote Now</a>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="footer-text">
+                            <p>Want to know how much our services <strong>cost</strong>? Fill in our on-line <strong>quotation form</strong>!</p>
+                        </div>
+                        <div class="footer-button"><a type="button" href="contact.html" class="btn btn-primary btn-lg">Quote Now</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block col-md-6 m-auto mh-90 mw-90">
+                        <img id="team-img" src="img/teatm.png" alt="">
+                    </div>
                 </div>
             </div>
-
         </div>
         <div class="container">
             <div class="sectio-footer-b">

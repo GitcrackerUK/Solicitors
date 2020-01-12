@@ -17,7 +17,6 @@ body {
     width:80%;
     margin: auto;
     font-family: 'Source Sans Pro', sans-serif;
-/*     background: #fff; */
     color: charcoal;
     font-size: 1.1em;
     line-height: 1.5;
@@ -101,10 +100,11 @@ p {
     list-style-type: none;
     color: black;
 }
-
+/* about */
 /* main */
 .section-main-top {
     height: 500px;
+    width: auto;
     background-image: url("img/activity-board-game-connection-desk-613508.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -117,17 +117,31 @@ p {
     padding: 20px;
 }
 .wra{
-    margin-top: 50px;
+
     grid-gap: 30px;
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     align-content: space-evenly;
+}
+.acredi-wrap p{
+    margin-left: 10px;
+    padding: 0px;
 }
 .section-main-bottom .jumbotron img{
     border-radius: 5px;
     height: 60px;
-    width: 100px;
+    width: 90px;
+}
+/* about */
+/* section-b */
+@media (min-width: 1000px){
+    #about-main{
+        font-size: 1.2em;
+        grid-gap:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /* service */
 /* main */
@@ -140,6 +154,8 @@ p {
     font-size: 15px;
     color: #fff;
 }
+
+
 /* charges */
 /* main */
 #form-charges{
@@ -159,12 +175,11 @@ p {
 .sectio-footer-a {
     background-color: #d5d5d5;
     height: 300px;
+    margin-top: 40px;
 }
-#sectio-footer-a-chaeges{
-    margin-top:80px;
-}
+
 .footer-text {
-    padding-top: 75px;
+        padding-top: 15%;
 }
 
 .footer-text p {
@@ -175,17 +190,20 @@ p {
 #footer {
     margin-top: 50px;
 }
-
-.socials a {
+#team-img{
+    max-height: 280px;
+    padding-right: 40px;
+}
+.socials a .fa{
     margin-left: 20px;
-    color: #ba8748;
+    color: #96858f;
 }
 
-.socials a:hover {
-    color: #936a39;
+.socials a .fa:hover {
+    color: #665c62;
 }
 
-.socials a:active {}
+.socials a .fa:active {}
 
 .credit {
     display: grid;
