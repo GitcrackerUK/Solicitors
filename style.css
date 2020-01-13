@@ -191,12 +191,12 @@ p {
 /* footer */
 .sectio-footer-a {
     background-color: #d5d5d5;
-    height: 300px;
-    margin-top: 40px;
+    /* height: 300px; */
+    /* margin-top: 40px; */
 }
 
 .footer-text {
-        padding-top: 15%;
+        padding: 0px 0px 20px 0px;
 }
 
 .footer-text p {
@@ -208,7 +208,9 @@ p {
     margin-top: 50px;
 }
 #team-img{
-    max-height: 280px;
+
+    max-height: 250px;
+    max-width: 450px;
     padding-right: 40px;
 }
 .socials a .fa{
