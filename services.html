@@ -14,7 +14,8 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <!-- Custom styles for this template -->
     <link href="http://v4-alpha.getbootstrap.com/examples/navbar/navbar.css" rel="stylesheet">
     <!-- font awesom -->
@@ -31,299 +32,308 @@
 <body>
     <!-- header -->
     <!-- section-a -->
-    <header>
-        <div class="container">
-            <div class="section-a" id=>
-                <h1>Goodwood Solicitors</h1>
-                <div class="col-12">
-                    <div class="cont-wrap">
-                        <h3><i class="fa fa-phone"></i>021894545456</h3>
-                        <h3><i class="fa fa-envelope "></i>law&justice@gmail.com</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="section-b">
-                <div class="navbar-wrapper">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light row d-flex justify-content-center">
-                        <div class="collapse   navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="index.html">home</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="about.html">who we are</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="services.html">our service</a>
-                                </li>
+    <div id="vue-app">
+        <header>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">contact us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="col-4 mt-2 mb-2 navbar-toggler" type="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            MENU
-                        </button>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- main -->
-    <main>
-        <div class="section-main-mid col-12">
-            <h2>our services</h2>
-            <div class=" mt-4 mb-4 container main-text-wrapper ">
-                <div id="accordion">
-                    <div class="card ">
-                        <div class="card-header " id="headingOne">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    <i class="ml-2 fa fa-bars"></i>
-                                </button> <span class="button-serv">Divorce and Separation</span>
-                            </h5>
-                        </div>
-
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-                                    <p>
-                                        Our breadth of experience and skills covers all aspects of this increasingly complex and challenging area of the law.
-                                    </p>
-                                    <p>
-                                        We recognise and understand the level of stress and emotional trauma that accompanies the breakdown of a relationship. Our approach is to minimise that stress as far as possible and to successfully resolve even
-                                        the most complicated matters in a sympathetic and objective manner.
-                                    </p>
-                                    <p>
-                                        We offer sensitive and expert advice on the issues arising when a marriage or civil partnership breaks down such as:
-                                    </p>
-
-                                    <h5>Divorce / Dissolution of a Civil Partnership</h5>
-                                    <p>Advising on all aspects of divorce and separation, including judicial issues and decrees of divorce and separation.
-                                    </p>
-
-                                    <h5>Financial settlements</h5>
-                                    <p>Advising clients before, during and after separation or divorce. We have particular expertise in complex financial cases, including those with an international dimension. We can investigate disclosure (including
-                                        wealth held behind companies, trusts and offshore assets) and advise on what would be a fair outcome.
-                                    </p>
-
-                                    <h5>Children</h5>
-                                    <p>Advising on all private law matters involving children, including disputes concerning children's residence and their contact with parents and other relations. We also deal with applications for permission to
-                                        remove children from the jurisdiction and their unlawful removal to and from the jurisdiction.
-                                    </p>
-                                    <p>
-                                        All our family solicitor are members of Resolution and follow a code of practice that encourages a non-confrontational approach to family problems.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <i class="ml-2 fa fa-bars"></i>
-                                </button><span class="button-serv">Relationship Agreements</span>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-                                    <p>If you are about to get married, enter a civil partnership or live with someone we can give you advice about an agreement that would protect your interests for the future. We have expertise in this emerging area
-                                        of law - drafting agreements, advising on their terms and the validity of those terms.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-
-                                    <i class="ml-2 fa fa-bars"></i>
-
-                                </button><span class="button-serv">Living Together</span>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-                                    <p>If you have been living with someone and the relationship ends you may need legal advice.</p>
-
-                                    <p>We regularly advise unmarried couples on the legal consequences of their relationships both in relation to the ownership and division of property and their rights and responsibilities towards children. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#colapsefour" aria-expanded="false" aria-controls="colapsefour">
-
-                                    <i class="ml-2 fa fa-bars"></i>
-
-                                </button><span class="button-serv">Property Work </span>
-                            </h5>
-                        </div>
-                        <div id="colapsefour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-                                    <p>
-                                        Goodwood Solicitors has a reputation for providing a full and comprehensive service in all areas of conveyancing and property work.
-                                    </p>
-                                    <p>
-                                        In May 2011 the firm was accredited by the Law Society with membership of the Conveyancing Quality Scheme. This is a quality standard which shows we commit to good practice management and we adhere to prudent
-                                        and efficient conveyancing procedures.
-                                    </p>
-                                    <p>
-                                        Examples of issues we can help with are:
-                                    </p>
-
-                                    <h5>Buying or Selling your home</h5>
-                                    <p>We will provide you with the advice and assistance required to make your move as smooth and swift as possible. We will investigate the legal title to the property you want to buy, and assist you in putting
-                                        together the information you will need to sell your home.
-                                    </p>
-
-                                    <h5>Remortgaging your property</h5>
-                                    <p>Whether you are changing your mortgage company to gain a better rate of interest, you want to raise some additional funds or you are entering into an equity release scheme we can carry out the legal formalities
-                                        that are needed.
-                                    </p>
-
-                                    <h5>Transferring the title to your property</h5>
-                                    <p>If you want to change the ownership of your home (often called a transfer of equity), perhaps into joint names or from joint names to your sole name, we can assist. We will also advise on Declarations of Trust
-                                        which set out the terms of owning a property with another person.
-                                    </p>
-
-                                    <h5>General property advice</h5>
-                                    <p>We can advise you on any queries you may have relating to the title to your property.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-
-                                    <i class="ml-2 fa fa-bars"></i>
-
-                                </button><span class="button-serv">Commercial Transactions</span>
-                            </h5>
-                        </div>
-                        <div id="collapsefive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-
-                                    <p>At Goodwood Solicitors we provide efficient and professional advice in commercial matters for the individual and small business.</p>
-
-                                    <p>Examples of the types of transactions we deal with are:</p>
-                                    <ul>
-                                        <li>Buying or selling businesses - from nursery schools to hairdressers</li>
-                                        <li>New leases for commercial premises - for either the landlord or the tenant</li>
-                                        <li>Issues arising from commercial leases - rent reviews and lease renewals</li>
-                                    </ul>
-                                    <p>Please contact us to discuss what services we can provide for you. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-
-                                    <i class="ml-2 fa fa-bars"></i>
-
-                                </button><span class="button-serv">Probate and Estate </span>
-                            </h5>
-                        </div>
-                        <div id="collapsesix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-
-                                    <p>When someone dies their estate (property and assets) has to be dealt with. Their will appoints executors to deal with the estate administration and determines how the estate must be divided.</p>
-
-                                    <p>If there is no will the Intestacy Rules will govern the division of the estate and who must deal with it.</p>
-
-                                    <p>In either case we can help you administer the estate. We can manage the whole affair or, if you prefer, we can just obtain the Grant of Representation from the Probate Court so you can then deal with the assets
-                                        yourself.</p>
-
-                                    <p>We will also offer advice on how best to distribute the estate and whether there is any opportunity to save any tax.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                                    <i class="ml-2 fa fa-bars"></i>
-                                </button><span class="button-serv">Wills</span>
-                            </h5>
-                        </div>
-                        <div id="collapseseven" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-
-                                    <p>When someone dies their estate (property and assets) has to be dealt with. Their will appoints executors to deal with the estate administration and determines how the estate must be divided.</p>
-
-                                    <p>We can advise you on your options when setting up your Will and make sure you consider all the alternatives.</p>
-
-                                    <p>If there is no will the Intestacy Rules will govern the division of the estate and who must deal with it and so by making a Will you remove this uncertainty. It gives peace of mind to you and those you leave
-                                        behind.</p>
-
-                                    <p>Many clients who come in to make their Wills start the meeting with: "we've been putting this off for years" and as they leave they often comment: "well that was easy"! So don't put it off, let us help.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0 d-flex">
-                                <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-
-                                    <i class="ml-2 fa fa-bars"></i>
-
-                                </button><span class="button-serv">Lasting Powers </span>
-                            </h5>
-                        </div>
-                        <div id="collapseeight" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="panel-body">
-
-                                    <p>
-                                        As you get older you may need help dealing with the day to day running of your affairs. You can appoint someone as your attorney to assist you.
-                                        There are two types of Lasting Power of Attorney (LPA)­­ - a Personal Welfare LPA and a Property and Affairs LPA. These do the following:
-                                    </p>
-                                    <p>
-                                        Health &amp; Welfare LPA: This authorises your attorney to make decisions about your personal welfare which includes healthcare and medical treatment.
-                                    </p>
-                                    <p>
-                                        Property &amp; Finances LPA: This authorises your attorney to act in relation to your property, investments and financial affairs.
-                                    </p>
-                                    <p>
-                                        We are experienced in preparing LPAs and we are happy to visit clients at home or in hospital if required.
-                                    </p>
-                                    <p>We will also act as or for attorneys to assist in administering peoples affairs.</p>
-                                </div>
-                            </div>
+            <div class="container">
+                <div class="section-a" id=>
+                    <h1>Goodwood Solicitors</h1>
+                    <div class="col-12">
+                        <div class="cont-wrap">
+                            <h3><i class="fa fa-phone"></i>021894545456</h3>
+                            <h3><i class="fa fa-envelope "></i>law&justice@gmail.com</h3>
                         </div>
                     </div>
                 </div>
+                <div class="section-b">
+                    <div class="navbar-wrapper">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light row d-flex justify-content-center">
+                            <div class="collapse   navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="index.html">home</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="about.html">who we are</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="services.html">our service</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="col-4 mt-2 mb-2 navbar-toggler" type="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                MENU
+                            </button>
+                        </nav>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
+        </header>
+        <!-- main -->
+        <main>
+            <div class="section-main-mid col-12">
+                <h2>our services</h2>
+                <div class=" mt-4 mb-4 container main-text-wrapper ">
+                    <div id="accordion">
+                        <div class="card ">
+                            <div v-on:click="show = !show" class="card-header " id="headingOne">
+                                <h5 class="mb-0 d-flex">
+                                    <button  class="btn btn-primary">
+                                        <i class="ml-2 fa fa-bars"></i>
+                                    </button> <span class="button-serv">Divorce and Separation</span>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" >
+                                <div  v-if="show" class="card-body">
+                                    <div class="panel-body">
+                                        <p>
+                                            Our breadth of experience and skills covers all aspects of this increasingly complex and challenging area of the law.
+                                        </p>
+                                        <p>
+                                            We recognise and understand the level of stress and emotional trauma that accompanies the breakdown of a relationship. Our approach is to minimise that stress as far as possible and to successfully resolve
+                                            even
+                                            the most complicated matters in a sympathetic and objective manner.
+                                        </p>
+                                        <p>
+                                            We offer sensitive and expert advice on the issues arising when a marriage or civil partnership breaks down such as:
+                                        </p>
+
+                                        <h5>Divorce / Dissolution of a Civil Partnership</h5>
+                                        <p>Advising on all aspects of divorce and separation, including judicial issues and decrees of divorce and separation.
+                                        </p>
+
+                                        <h5>Financial settlements</h5>
+                                        <p>Advising clients before, during and after separation or divorce. We have particular expertise in complex financial cases, including those with an international dimension. We can investigate disclosure
+                                            (including
+                                            wealth held behind companies, trusts and offshore assets) and advise on what would be a fair outcome.
+                                        </p>
+
+                                        <h5>Children</h5>
+                                        <p>Advising on all private law matters involving children, including disputes concerning children's residence and their contact with parents and other relations. We also deal with applications for permission to
+                                            remove children from the jurisdiction and their unlawful removal to and from the jurisdiction.
+                                        </p>
+                                        <p>
+                                            All our family solicitor are members of Resolution and follow a code of practice that encourages a non-confrontational approach to family problems.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div v-on:click="show1 = !show1" class="card-header" id="headingTwo">
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary " >
+                                        <i class="ml-2 fa fa-bars"></i>
+                                    </button><span class="button-serv">Relationship Agreements</span>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" >
+                                <div  v-if="show1"  class="card-body">
+                                    <div class="panel-body">
+                                        <p>If you are about to get married, enter a civil partnership or live with someone we can give you advice about an agreement that would protect your interests for the future. We have expertise in this emerging
+                                            area
+                                            of law - drafting agreements, advising on their terms and the validity of those terms.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div v-on:click="show2 = !show2" class="card-header" id="headingThree">
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary " >
+
+                                        <i class="ml-2 fa fa-bars"></i>
+
+                                    </button><span class="button-serv">Living Together</span>
+                                </h5>
+                            </div>
+                            <div id="collapseThree"  >
+                                <div  v-if="show2"  class="card-body">
+                                    <div class="panel-body">
+                                        <p>If you have been living with someone and the relationship ends you may need legal advice.</p>
+
+                                        <p>We regularly advise unmarried couples on the legal consequences of their relationships both in relation to the ownership and division of property and their rights and responsibilities towards children. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div @click="show3 = !show3" class="card-header" >
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary " >
+
+                                        <i class="ml-2 fa fa-bars"></i>
+
+                                    </button><span class="button-serv">Property Work </span>
+                                </h5>
+                            </div>
+                            <div >
+                                <div   v-if="show3"class="card-body">
+                                    <div  class="panel-body">
+                                        <p>
+                                            Goodwood Solicitors has a reputation for providing a full and comprehensive service in all areas of conveyancing and property work.
+                                        </p>
+                                        <p>
+                                            In May 2011 the firm was accredited by the Law Society with membership of the Conveyancing Quality Scheme. This is a quality standard which shows we commit to good practice management and we adhere to
+                                            prudent
+                                            and efficient conveyancing procedures.
+                                        </p>
+                                        <p>
+                                            Examples of issues we can help with are:
+                                        </p>
+
+                                        <h5>Buying or Selling your home</h5>
+                                        <p>We will provide you with the advice and assistance required to make your move as smooth and swift as possible. We will investigate the legal title to the property you want to buy, and assist you in putting
+                                            together the information you will need to sell your home.
+                                        </p>
+
+                                        <h5>Remortgaging your property</h5>
+                                        <p>Whether you are changing your mortgage company to gain a better rate of interest, you want to raise some additional funds or you are entering into an equity release scheme we can carry out the legal
+                                            formalities
+                                            that are needed.
+                                        </p>
+
+                                        <h5>Transferring the title to your property</h5>
+                                        <p>If you want to change the ownership of your home (often called a transfer of equity), perhaps into joint names or from joint names to your sole name, we can assist. We will also advise on Declarations of
+                                            Trust
+                                            which set out the terms of owning a property with another person.
+                                        </p>
+
+                                        <h5>General property advice</h5>
+                                        <p>We can advise you on any queries you may have relating to the title to your property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div v-on:click="show4 = !show4" class="card-header" id="headingThree">
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary " >
+
+                                        <i class="ml-2 fa fa-bars"></i>
+
+                                    </button><span class="button-serv">Commercial Transactions</span>
+                                </h5>
+                            </div>
+                            <div id="collapsefive" >
+                                <div v-if="show4" class="card-body">
+                                    <div class="panel-body">
+
+                                        <p>At Goodwood Solicitors we provide efficient and professional advice in commercial matters for the individual and small business.</p>
+
+                                        <p>Examples of the types of transactions we deal with are:</p>
+                                        <ul>
+                                            <li>Buying or selling businesses - from nursery schools to hairdressers</li>
+                                            <li>New leases for commercial premises - for either the landlord or the tenant</li>
+                                            <li>Issues arising from commercial leases - rent reviews and lease renewals</li>
+                                        </ul>
+                                        <p>Please contact us to discuss what services we can provide for you. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div  v-on:click="show5 = !show5" class="card-header" id="headingThree">
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary " >
+
+                                        <i class="ml-2 fa fa-bars"></i>
+
+                                    </button><span class="button-serv">Probate and Estate </span>
+                                </h5>
+                            </div>
+                            <div id="collapsesix" >
+                                <div v-if="show5" class="card-body">
+                                    <div class="panel-body">
+
+                                        <p>When someone dies their estate (property and assets) has to be dealt with. Their will appoints executors to deal with the estate administration and determines how the estate must be divided.</p>
+
+                                        <p>If there is no will the Intestacy Rules will govern the division of the estate and who must deal with it.</p>
+
+                                        <p>In either case we can help you administer the estate. We can manage the whole affair or, if you prefer, we can just obtain the Grant of Representation from the Probate Court so you can then deal with the
+                                            assets
+                                            yourself.</p>
+
+                                        <p>We will also offer advice on how best to distribute the estate and whether there is any opportunity to save any tax.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div v-on:click="show6 = !show6" class="card-header" id="headingThree">
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary" >
+                                        <i class="ml-2 fa fa-bars"></i>
+                                    </button><span class="button-serv">Wills</span>
+                                </h5>
+                            </div>
+                            <div id="collapseseven"  >
+                                <div v-if="show6" class="card-body">
+                                    <div   class="panel-body">
+
+                                        <p>When someone dies their estate (property and assets) has to be dealt with. Their will appoints executors to deal with the estate administration and determines how the estate must be divided.</p>
+
+                                        <p>We can advise you on your options when setting up your Will and make sure you consider all the alternatives.</p>
+
+                                        <p>If there is no will the Intestacy Rules will govern the division of the estate and who must deal with it and so by making a Will you remove this uncertainty. It gives peace of mind to you and those you leave
+                                            behind.</p>
+
+                                        <p>Many clients who come in to make their Wills start the meeting with: "we've been putting this off for years" and as they leave they often comment: "well that was easy"! So don't put it off, let us help.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div v-on:click="show7 = !show7" class="card-header" id="headingThree">
+                                <h5 class="mb-0 d-flex">
+                                    <button class="btn btn-primary " >
+
+                                        <i class="ml-2 fa fa-bars"></i>
+
+                                    </button><span class="button-serv">Lasting Powers </span>
+                                </h5>
+                            </div>
+                            <div id="collapseeight" >
+                                <div v-if="show7"class="card-body">
+                                    <div class="panel-body">
+
+                                        <p>
+                                            As you get older you may need help dealing with the day to day running of your affairs. You can appoint someone as your attorney to assist you.
+                                            There are two types of Lasting Power of Attorney (LPA)­­ - a Personal Welfare LPA and a Property and Affairs LPA. These do the following:
+                                        </p>
+                                        <p>
+                                            Health &amp; Welfare LPA: This authorises your attorney to make decisions about your personal welfare which includes healthcare and medical treatment.
+                                        </p>
+                                        <p>
+                                            Property &amp; Finances LPA: This authorises your attorney to act in relation to your property, investments and financial affairs.
+                                        </p>
+                                        <p>
+                                            We are experienced in preparing LPAs and we are happy to visit clients at home or in hospital if required.
+                                        </p>
+                                        <p>We will also act as or for attorneys to assist in administering peoples affairs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
     </main>
 
-    <footer>
+    <footer >
 
         <div class="sectio-footer-a">
             <div class="container">
                 <div class="row align-middle">
                     <div class="col-12 col-md-6 m-auto">
-                        <div class="footer-text">
+                        <div class="footer-text" v-if="show">
                             <p>Want to know how much our services <strong>cost</strong>? Fill in our on-line <strong>quotation form</strong>!</p>
                             <a role="button" href="contact.html" class="btn btn-primary btn-lg">Quote Now</a>
                         </div>
@@ -353,6 +363,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="mian.js">
+
+    </script>
+    </div>
 </body>
 
 </html>

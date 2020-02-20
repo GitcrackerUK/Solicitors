@@ -150,6 +150,9 @@ p {
     height: 60px;
     width: 90px;
 }
+.cert-img{
+ width: 120px;
+}
 /* about */
 /* section-b */
 @media (min-width: 1000px){
